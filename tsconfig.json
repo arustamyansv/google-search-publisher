@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "nodenext",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+
+      "outDir": "./build",
+      "sourceRoot": "./src/",
+      "rootDir": "./src/",
+      "sourceMap": true,
+
+      "baseUrl": "./src",
+    }
+}
