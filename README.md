@@ -76,5 +76,5 @@ data\                       # data directory in the project folder
 
 ### Usage
 
-Run `npm start -- help` being in the script directory 
-All commands listed in the helm are to be invoked like this - `npm start -- <command>` where `<command>` is either `run`, `status`, `flush`.
+Run `npm start -- help` being in the script directory. 
+All commands listed in the help are to be invoked like this - `npm start -- <command>` where `<command>` is either `run`, `status`, `flush`.
