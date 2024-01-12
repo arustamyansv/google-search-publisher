@@ -26,7 +26,7 @@ Close terminal and repeat *Run Terminal* step.
 
 ##### Change Directory to the Project Folder
 
-Use `cd <path_to_project>` if project at the same drive.
+Use `cd <path_to_project>` if project at the same drive. Replace `<path_to_project>` with wherever you put source files
 Type drive directly if drive is different.
 
 ##### Install Node Packages
@@ -73,3 +73,7 @@ data\                       # data directory in the project folder
         urls.csv            # list of urls for processing
         urls_processed.csv  # list of processed urls. Created and managed by script itself.
 ```
+
+### Usage
+
+Run `npm start -- help` being in the script directory 
