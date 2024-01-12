@@ -11,12 +11,12 @@ const main = async () => {
 
     let statusCmd = program.command('status');
     statusCmd
-        .summary('Show current url we stopped at')
+        .summary('Show current progress')
         .action(status);
 
     let flushCmd = program.command('flush');
     flushCmd
-        .summary('Clear current processing to start over')
+        .summary('Clear current progress so all urls will be processed all over')
         .action(flush);
 
     program.parse(process.argv);
